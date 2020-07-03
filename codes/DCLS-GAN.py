@@ -6,7 +6,7 @@ from tensorflow.contrib.data import prefetch_to_device, shuffle_and_repeat, map_
 
 
 class CGAN(object):
-    model_name = "CGAN"  # name for checkpoint
+    model_name = "DCLS-GAN"  # name for checkpoint
 
     def __init__(self, sess, args):
 
