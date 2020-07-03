@@ -23,7 +23,7 @@ def parse_args():
     parser.add_argument('--dataset', type=str, default='n02510455', help='[mnist / cifar10 / celebA]')
     parser.add_argument('--augment_flag', type=str, default=True, help='using augmented dataset')
 
-    parser.add_argument('--model_name', type=str, default='CGAN',
+    parser.add_argument('--model_name', type=str, default='DCLS-GAN',
                         choices=['GAN', 'CGAN', 'infoGAN', 'ACGAN', 'EBGAN', 'BEGAN', 'WGAN', 'WGAN_GP', 'DRAGAN', 'LSGAN', 'VAE', 'CVAE'],
                         help='The type of GAN')
 
